@@ -140,7 +140,6 @@ public class ConsultaDiccionarioV2 {
 
 	public static String llamaServicioHTTP(String palabra) throws Exception {
 
-		// String url = "http://api.apalabrados.com/api/dictionaries/ES?words=" + palabra;
 		String url = "https://words.bighugelabs.com/api/2/c5ba0873c73451fbe9c06c9d32768000/" + palabra + "/json";
 		 //String url = "https://api.setlist.fm/rest/1.0/search/artists?artistName=ALBORAN";
 		URL obj = new URL(url);
