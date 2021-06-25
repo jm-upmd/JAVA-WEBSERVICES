@@ -102,9 +102,8 @@ public class ConsultaDiccionario {
 	
 	
 	public static String llamaServicioHTTP(String palabra) throws Exception {
-		
-	     //String url = "http://api.apalabrados.com/api/dictionaries/ES?words=" + palabra;
-		 String url = "https://words.bighugelabs.com/api/2/c5ba0873c73451fbe9c06c9d32768000/" + palabra +"/json";
+			
+             String url = "https://words.bighugelabs.com/api/2/c5ba0873c73451fbe9c06c9d32768000/" + palabra +"/json";
 	     URL obj = new URL(url);
 	     HttpURLConnection con = (HttpURLConnection) obj.openConnection();
 	     // optional default is GET
